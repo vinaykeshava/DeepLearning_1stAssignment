@@ -1,11 +1,14 @@
 The outliers have been identified and been extracted
 
 Steps followed
+
 1 - used boxplot to find outliers(Few columns were found to have outliers)
 
 2 - checked for distribution using density plot (Some of column were non-gaussian distribution)
 
 3 - Normalized data 
+
+
     a) using sklearn normailze function
 
     b) using sklearn MaxAbsScaler class
