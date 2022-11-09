@@ -2,7 +2,7 @@
 # Deep Learning Assignment 1
 
 
-#### Alloted dataset: 22.txt
+#### Alloted dataset: 24.txt
 
 Following are the steps:                                   
 1. All necessary packages are imported.
