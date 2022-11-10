@@ -10,8 +10,8 @@ The below steps are carried out:
 - Plots are made by normalizing and identifying anamolies. 80 % from mean is observed as anamoly
 
 ## Formulas used
-###  -------Mean is ```sum(X)/len(X)```
-###  -------Min Max Scaler is ```x' = (x - min(X)) / (max(X) - min(X))```
-### -------Median is ```mid(sorted(X))```
-### -------Standard Scaler / Z Scaler is ```x' = (x - mean(X)) / std(X)```
-### ------- Max Absolute Scaler is ```x' = x / max(abs(X))```
+###  -------Mean is sum(X)/len(X)
+###  -------Min Max Scaler is x' = (x - min(X)) / (max(X) - min(X))
+### -------Median is mid(sorted(X))
+### -------Standard Scaler / Z Scaler is x' = (x - mean(X)) / std(X)
+### ------- Max Absolute Scaler is x' = x / max(abs(X))
