@@ -27,5 +27,10 @@ Steps followed
         df_std[column] = (df_std[column] - df_std[column].mean()) / df_std[column].std()
 
 4 - extracted outliers/anamoly using percentile method (.05 and .95 quartile were taken as anamoly)
+    low = .05
+    high = .95
+    quant_df = df1.quantile([low, high])
+    quant_df
 
 5 - correaltion between data is visualized to find dependent variable in data
+cov(X, Y) = (sum (x - mean(X)) * (y - mean(Y)) ) * 1/(n-1)
