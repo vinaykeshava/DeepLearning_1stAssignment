@@ -17,6 +17,7 @@ Steps followed
         that the maximal absolute value of each feature in the
         training set will be 1.0. It does not shift/center the data, and
         thus does not destroy any sparsity.
+        The maximum absolute value is n. Then you divide all values of this column by n.
 
     c) using sklearn MinMaxScaler class
         The transformation is given by::
@@ -27,10 +28,14 @@ Steps followed
         df_std[column] = (df_std[column] - df_std[column].mean()) / df_std[column].std()
 
 4 - extracted outliers/anamoly using percentile method (.05 and .95 quartile were taken as anamoly)
+
+
     low = .05
     high = .95
     quant_df = df1.quantile([low, high])
     quant_df
 
 5 - correaltion between data is visualized to find dependent variable in data
-cov(X, Y) = (sum (x - mean(X)) * (y - mean(Y)) ) * 1/(n-1)
+
+
+    cov(X, Y) = (sum (x - mean(X)) * (y - mean(Y)) ) * 1/(n-1)
